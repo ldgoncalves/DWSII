@@ -1,0 +1,185 @@
+* {
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    color: #343;
+}
+body {
+    background-color: #fff;
+    font-size: 1em;
+
+}
+/* the div that contains all content */
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+    padding: 1.25em;
+    overflow: auto;
+}
+/* This is universal with all pages - header */
+header{
+    float: left;
+    width: 20%;
+}
+#logo{
+    height:auto;
+    padding-bottom: 2em;
+    border-bottom: 1px dotted;
+}
+img[title="Luana Photography"]{ /*attribute selector*/
+    max-width:100%;
+    min-width:50%;
+    display: block;
+}
+#logo>p{
+    font-style: italic;
+    font-size: 0.938em;
+    text-align: center;
+    color: #908eb3;
+}
+
+/* navigation within header (universal) */
+nav ul{
+    opacity: 1;
+    width:100%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+nav>ul { /*child selector*/
+    margin: 3em 0;
+}
+nav ul li {
+    line-height: 1.2;
+    margin-bottom: 0.9em;
+    list-style-type: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+nav ul li:nth-child(2){ /*nth-child selector*/
+    color: #a29292;
+}
+nav ul li ul li:first-child{ /*structural pseudo-code*/
+    margin: 0.6em 0;
+}
+nav ul li.list {
+    float: left;
+    width: 100%;
+    font-size: 0.80em;
+    color: inherit;
+    font-weight: normal;
+}
+nav ul li.list:last-child {
+margin-bottom: 0;
+}
+/*clearfix hack*/
+.clearfix:before,.clearfix:after{
+    content:" ";
+    display: table;
+}
+.clearfix:after{
+    clear:both;
+}
+.clearfix{
+    *zoom: 1;
+}
+/*styling nav links*/
+nav a {
+    color: #a29292;
+    display:inline-block;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2em;
+}
+nav a:hover, nav a:active{
+    color: #908eb3;
+}
+nav ul li ul li a{
+    color: inherit;
+}
+nav ul li.active a{
+    color: #908eb3;
+}
+nav a#pull {
+    display: none;
+}
+/* main content - homepage */
+section{
+    width:75%;
+    padding-left:2%;
+    float: left;
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+    -webkit-column-width: 15em; /* Chrome, Safari, Opera */
+    column-width: 15em;
+    -webkit-column-gap: 0.5em; /* Chrome, Safari, Opera */
+    -moz-column-gap: 0.5em; /* Firefox */
+    column-gap: 0.5em;
+}
+img{
+    max-width:100%;
+    min-width:40%;
+}
+/* footer*/
+footer{
+    clear:left;
+    padding-top: 3em;
+    text-align: center;
+}
+/* all links */
+a:link{
+    color: #908eb3;
+}
+
+/*________ media queries_________ */
+/* mobile portrait */
+@media screen and (max-width: 736px) and (min-width: 320px){
+    header{
+        width: 95%;
+    }
+    nav {
+        height: auto;
+        padding: 2em 0;
+        border-bottom: 0;
+    }
+    nav ul {
+        width: 100%;
+        display: none;
+        height: auto;
+    }
+    nav a {
+        text-align: left;
+        width: 100%;
+        text-indent: 1.250em;
+        text-transform: uppercase;
+    }
+    nav a#pull {
+        display: block;
+        width: 100%;
+        float: left;
+    }
+    nav a#pull:after {
+        content: "";
+        background: url('images/nav_icon.png') no-repeat;
+        width: 1.8em;
+        height: 1.75em;
+        display: inline-block;
+        float: right;
+        padding-right: 1em;
+    }
+    section{
+        width: 95%;
+    }
+}
+@media only screen and (max-width : 320px) {
+    nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+}
+
+
+

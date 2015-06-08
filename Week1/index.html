@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href="main.css" rel="stylesheet" type="text/css"/>
+    <title>Luana Photography</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>
+        $(function() {
+            var pull 		= $('#pull');
+            menu 		= $('nav ul');
+            menuHeight	= menu.height();
+
+            $(pull).on('click', function(e) {
+                e.preventDefault();
+                menu.slideToggle();
+            });
+
+            $(window).resize(function(){
+                var w = $(window).width();
+                if(w > 320 && menu.is(':hidden')) {
+                    menu.removeAttr('style');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <!-- Logo and tagline -->
+            <div id="logo">
+                <h1>
+                    <a href ="index.html"><img src="images/logo.png" alt="Luana Photography Logo" title="Luana Photography"/></a>
+                </h1>
+                <p>Painting timeless moments with light...</p>
+            </div><!-- End Logo and tagline -->
+            <!-- Navigation -->
+            <nav class="clearfix">
+                <ul class="clearfix">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li>Portfolio
+                        <ul>
+                            <li class="list"><a href="#">Weddings</a></li>
+                            <li class="list"><a href="#">Portraits</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <a href="#" id="pull">Menu</a>
+            </nav><!-- End Navigation -->
+        </header>
+        <!-- Main Content/ Mini Gallery of Portfolio for homepage -->
+        <section>
+            <article>
+                <a href ="images/thumbnails/thumbnail-1.jpg">
+                <img src="images/thumbnails/thumbnail-1.jpg" alt="Portrait with horse" title="Portraits"/></a><br />
+                <a href ="images/thumbnails/thumbnail-2.jpg">
+                <img src="images/thumbnails/thumbnail-2.jpg" alt="Portrait of couple" title="Portraits"/></a><br />
+                <a href ="images/thumbnails/thumbnail-3.jpg">
+                <img src="images/thumbnails/thumbnail-3.jpg" alt="Portrait" title="Portraits"/></a><br />
+                <a href ="images/thumbnails/thumbnail-4.jpg">
+                <img src="images/thumbnails/thumbnail-4.jpg" alt="Portrait" title="Portraits"/></a><br />
+                <a href ="images/thumbnails/thumbnail-5.jpg">
+                <img src="images/thumbnails/thumbnail-5.jpg" alt=" Family Portrait" title="Portraits"/></a><br />
+                <a href ="images/thumbnails/thumbnail-6.jpg">
+                <img src="images/thumbnails/thumbnail-6.jpg" alt="Maternity Portrait" title="Portraits"/></a><br />
+                <a href ="images/thumbnails/thumbnail-7.jpg">
+                <img src="images/thumbnails/thumbnail-7.jpg" alt=" Graduation Portrait" title="Portraits"/></a><br />
+            </article>
+            <article>
+                <a href ="images/thumbnails/thumbnail-8.jpg">
+                <img src="images/thumbnails/thumbnail-8.jpg" alt="Engagement Portrait" title="Portraits"/></a><br />
+                <a href ="images/thumbnails/thumbnail-9.jpg">
+                <img src="images/thumbnails/thumbnail-9.jpg" alt="Portrait of couple" title="Portraits"/></a><br />
+                <a href ="images/thumbnails/thumbnail-10.jpg">
+                <img src="images/thumbnails/thumbnail-10.jpg" alt="Portrait" title="Portraits"/></a><br />
+                <a href ="images/thumbnails/thumbnail-11.jpg" target=_blank>
+                <img src="images/thumbnails/thumbnail-11.jpg" alt="Wedding" title="Weddings"/></a><br />
+                <a href ="images/thumbnails/thumbnail-12.jpg">
+                <img src="images/thumbnails/thumbnail-12.jpg" alt=" Wedding Portrait" title="Weddings"/></a><br />
+                <a href ="images/thumbnails/thumbnail-13.jpg">
+                <img src="images/thumbnails/thumbnail-13.jpg" alt="Weddings" title="Weddings"/></a><br />
+                <a href ="images/thumbnails/thumbnail-14.jpg">
+                <img src="images/thumbnails/thumbnail-14.jpg" alt="Weddings" title="Weddings"/></a><br />
+            </article>
+            <article>
+                <a href ="images/thumbnails/thumbnail-15.jpg">
+                <img src="images/thumbnails/thumbnail-15.jpg" alt="Weddings" title="Weddings"/></a><br />
+                <a href ="images/thumbnails/thumbnail-16.jpg">
+                <img src="images/thumbnails/thumbnail-16.jpg" alt="Weddings" title="Weddings"/></a><br />
+                <a href ="images/thumbnails/thumbnail-17.jpg">
+                <img src="images/thumbnails/thumbnail-17.jpg" alt="Weddings" title="Weddings"/></a><br />
+                <a href ="images/thumbnails/thumbnail-18.jpg">
+                <img src="images/thumbnails/thumbnail-18.jpg" alt="Weddings" title="Weddings"/></a><br />
+                <a href ="images/thumbnails/thumbnail-19.jpg">
+                <img src="images/thumbnails/thumbnail-19.jpg" alt=" Family Portrait" title="Portraits"/></a><br />
+                <a href ="images/thumbnails/thumbnail-20.jpg">
+                <img src="images/thumbnails/thumbnail-20.jpg" alt="Maternity Portrait" title="Portraits"/></a><br />
+                <a href ="images/thumbnails/thumbnail-21.jpg">
+                <img src="images/thumbnails/thumbnail-21.jpg" alt=" Children Portraits" title="Portraits"/></a><br />
+            </article>
+        </section><!-- Main Content -->
+        <!-- Footer (Remember to include social media buttons) -->
+        <footer>
+            <p>&copy; 2014 Luana Goncalves. All Rights Reserved<br>Email: <a href="mailto:info@luanaphotography.com" class="footer">info@luanaphotography.com</a></p>
+        </footer> <!-- End Footer -->
+    </div><!-- .wrapper -->
+</body>
+</html>

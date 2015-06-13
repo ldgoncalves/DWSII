@@ -1,0 +1,143 @@
+/* this is a custom stylesheet */
+
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.428571429;
+    color: #343;
+    background-color: #FEFEFA;
+    position: relative;
+}
+.carousel-caption{
+    font:italic 400 1.5em "Source Sans Pro",sans-serif;
+}
+/*-------- STYLING OF NAVBAR ---------*/
+nav{
+    background-color: hsla(0,100%,100%,0.95) !important;
+    border-bottom: none !important;
+}
+.navbar-nav{
+    font-family:"Source Sans Pro",sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+    margin-right: 1.818181818182%;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: rgba(144,143,179,0.50) !important;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    background-color: rgba(144,143,179,0.50);
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover{
+    background-color:rgba(179,161,161,0.75);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#fff;
+}
+button.navbar-toggle{
+    background-color: rgba(179,161,161,0.75) !important;
+}
+/*------------- STYLING OF MAIN ----------------*/
+article h1, article h2 {
+    text-transform: uppercase;
+}
+article h1{
+    font: normal 3em/1.5em "Source Sans Pro", sans-serif;
+    color: rgb(144,143,179);
+    text-shadow: 1px 1px 3px #343;
+    text-align: center;
+}
+article h2{
+    font: normal 1.8em/1em "Source Sans Pro", sans-serif;
+}
+article p{
+    font-style:italic;
+    font-size:1em;
+    text-align: center;
+}
+ul {
+    padding:0;
+    margin:0;
+}
+ul li {
+    list-style:none;
+    margin-bottom:25px;
+}
+#portraits{
+    padding-top: 10%;
+}
+#about, #pricing, #contact {
+    padding-top: 8%;
+}
+#about p{
+    text-align:left;
+    font-style: normal;
+    line-height:1.5em;
+}
+p span{
+    padding-bottom: 2%;
+    font: bold 3em "Source Sans Pro",sans-serif;;
+    color: rgb(179,161,161);
+}
+p a:hover, p a:active {
+    font-size:1em;
+    text-decoration: underline;
+    color: rgb(179,161,161);
+}
+p a:visited{
+    text-decoration: none;
+    color: rgb(179,161,161);
+}
+blockquote{
+    font-style:italic;
+    border-left: none;
+    background-color:rgba(144,143,179,0.15);
+}
+/*--------Tables-----*/
+.table{
+    border-collapse: separate;
+}
+th,td {
+    text-align: center;
+}
+th{
+    background-color:rgba(179,161,161,0.75);
+    color: #FEFEFA;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-top: 3px solid #DDD;
+}
+td a:link, td a:visited{
+    text-decoration: none;
+    color: rgb(179,161,161);
+}
+td a:hover,td a:active{
+    text-decoration: underline;
+    color: rgb(179,161,161);
+}
+/*--------Contact-----*/
+
+#contact{
+    background-color:rgba(144,143,179,0.15);
+}
+
+/*--------Media Queries-----*/
+@media screen and (max-width : 768px){
+    body{
+        padding-top:40px;
+    }
+    .navbar-brand {
+        padding:0;
+    }
+    .quote {
+        height: 200px;
+    }
+}
+@media only screen and (max-width : 365px) {
+    .carousel {
+        display: none;
+    }
+}

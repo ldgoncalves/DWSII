@@ -1,0 +1,12 @@
+body{
+    background: url('../images/buddha.jpg') no-repeat center ;
+    background-size: cover;
+
+}
+
+#wrapper{
+    max-width: 100%;
+    overflow:auto;
+    margin: 0 auto;
+}
+

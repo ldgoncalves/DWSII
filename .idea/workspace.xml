@@ -2,8 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7535ea-f3c1-4d26-8b21-bffa26b5cf6b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/Apostrophic Labs License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/How_to_use_webfonts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/am_erika.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_alternates_macroman/AMERIKAA-demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_alternates_macroman/AMERIKAA-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_alternates_macroman/AMERIKAA-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_alternates_macroman/AMERIKAA-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_alternates_macroman/AMERIKAA-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_alternates_macroman/specimen_files/AMERIKAA-cleartype.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_alternates_macroman/specimen_files/easytabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_alternates_macroman/specimen_files/grid_12-825-55-15.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_alternates_macroman/specimen_files/specimen_stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_alternates_macroman/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_regular_macroman/AMERIKA_-demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_regular_macroman/AMERIKA_-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_regular_macroman/AMERIKA_-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_regular_macroman/AMERIKA_-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_regular_macroman/AMERIKA_-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_regular_macroman/specimen_files/AMERIKA_-cleartype.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_regular_macroman/specimen_files/easytabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_regular_macroman/specimen_files/grid_12-825-55-15.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_regular_macroman/specimen_files/specimen_stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/Amerika-fontfacekit/web fonts/amerika_regular_macroman/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/images/3762846625_7bc41d099b_m.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/images/3762846985_2065745b92_z.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/images/4098831412_aa1667af54_z.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/images/header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/images/massage-389727_640.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/images/relaxation-686392_1280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/images/wellness-285590_640.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 3/text" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 3/index.html" afterPath="$PROJECT_DIR$/Week 3/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 3/css/main.css" afterPath="$PROJECT_DIR$/Week 3/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week 3/text" afterPath="$PROJECT_DIR$/Week 3/text" />
     </list>
     <ignored path="DWSII.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +58,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.886076">
-              <caret line="84" column="41" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.17721519">
+              <caret line="120" column="87" selection-start-line="120" selection-start-column="87" selection-end-line="120" selection-end-column="87" />
               <folding />
             </state>
           </provider>
@@ -37,18 +68,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week 3/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6883117">
-              <caret line="196" column="17" selection-start-line="196" selection-start-column="17" selection-end-line="196" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 3/text">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="1" selection-start-line="36" selection-start-column="0" selection-end-line="53" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.33766234">
+              <caret line="251" column="85" selection-start-line="251" selection-start-column="85" selection-end-line="251" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -79,8 +100,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="180" />
-    <option name="y" value="192" />
+    <option name="x" value="282" />
+    <option name="y" value="117" />
     <option name="width" value="1273" />
     <option name="height" value="867" />
   </component>
@@ -239,7 +260,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="180" y="192" width="1273" height="867" extended-state="0" />
+    <frame x="282" y="117" width="1273" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -260,6 +281,14 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -309,26 +338,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 3/text">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="1" selection-start-line="36" selection-start-column="0" selection-end-line="53" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week 3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.886076">
-          <caret line="84" column="41" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.17721519">
+          <caret line="120" column="87" selection-start-line="120" selection-start-column="87" selection-end-line="120" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 3/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6883117">
-          <caret line="196" column="17" selection-start-line="196" selection-start-column="17" selection-end-line="196" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.33766234">
+          <caret line="251" column="85" selection-start-line="251" selection-start-column="85" selection-end-line="251" selection-end-column="85" />
           <folding />
         </state>
       </provider>

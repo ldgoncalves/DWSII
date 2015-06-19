@@ -1,0 +1,304 @@
+* {
+    transition: all 1s;
+}
+body {
+    background: url('../images/buddha.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: auto;
+    padding-top:50px;
+}
+#wrapper{
+    width: 100%;
+    overflow:auto;
+    margin: 0 auto;
+    position:relative;
+}
+/*------------Logo & Nav-------------*/
+header{
+    z-index:1000;
+    margin-bottom: 100px;
+    height: auto;
+}
+#logo h1{
+    font: bold 2em 'amerika_sansregular', sans-serif;
+    color: #f9f9f9;
+    text-shadow: 2px 2px 5px #666666;
+    border: 4px solid #f9f9f9;
+    padding:0.5%;
+    text-align: center;
+    margin:0;
+}
+#logo{
+    width:30%;
+    float: left;
+}
+nav{
+    margin-left: 1.818182%;
+    float: right;
+    width: 60%;
+}
+nav ul{
+    list-style-type: none;
+    margin:0;
+}
+nav ul li{
+    display: inline-block;
+    font: bold 1em 'Helvetica Neue', sans-serif;
+    margin-right: 1.434954%;
+    text-transform: uppercase;
+}
+nav ul li:last-child{
+    margin-right: 0;
+}
+nav ul li a:link, nav ul li a:hover nav ul li a:focus nav ul li a:visited {
+    text-decoration: none;
+}
+nav ul li a{
+    color: #f9f9f9;
+    text-shadow: 1px 1px 3px #666666;
+}
+nav ul li a:hover{
+    color: #f5e79e;
+    text-shadow: 1px 1px 3px #666666;
+}
+nav ul li.active a{
+    color: #f5e79e;
+    text-shadow: 1px 1px 3px #666666;
+}
+/*------------FORM-------------*/
+.container{
+    width:100%;
+    overflow: auto;
+    display: block;
+    background-color: rgba(255,236,231,0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    clear:left ;
+    position:relative;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+.container:hover {
+background-color: rgba(255,236,231,0.50);
+-webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+form {
+    position:relative;
+    width:100%;
+    height: auto;
+    margin: 0 auto;
+}
+form div.hgroup{
+     text-align: center;
+     text-shadow: 1px 1px 3px #666666;
+ }
+form div.hgroup h1 {
+   font-weight: bold;
+    font-size: 1.5em;
+    margin: 0;
+    padding-top: 15px;
+
+}
+form div.hgroup h2 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+fieldset{
+    position:relative;
+    width: 85%;
+    margin: 0 auto 3% auto;
+    background-color: rgba(255,236,231,0.5);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius:10px;
+    border: none;
+    overflow:auto;
+    padding: 3%;
+}
+legend{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+label, input{
+    font-size: 0.8em;
+}
+div.details-group, div.info, div.survey{/*the box containing labels with their inputs*/
+    margin-left:15px;
+    margin-bottom:15px;
+    float:left;
+    width:90%;
+    position: relative;
+    display:inline-block;
+}
+div.details-group label, div.info label, div.survey label{/*styling for labels in each fieldset*/
+    width: 40%;
+    font-weight:700;
+    float:left;
+    font-size: 1em;
+}
+div.info label span{
+    font-style: italic;
+    font-weight:normal;
+    font-size: 0.9em;
+}
+input.details, textarea#comments, select{/*styling for input field*/
+    width: 40%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 1em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    float:right;
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+    -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+    box-sizing: border-box;
+}
+textarea#comments{
+    height: 70px;
+}
+
+input#rating{
+    width: 40%;
+    float:right;
+}
+span#range{
+    float: left;
+    font-size: 3em;
+    width: 100%;
+    color: #eb9316;
+    clear: both;
+    text-align: center;
+}
+input[type=date],input[type=month] {/*styling for date picket*/
+    font-size: 1rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+::-webkit-datetime-edit {
+    font-size: 1rem; }
+::-webkit-datetime-edit-fields-wrapper {
+    padding: 1rem; }
+::-webkit-datetime-edit-text {
+    color: #555; padding: 0 0.5em; }
+::-webkit-datetime-edit-month-field {
+    color: #555; }
+::-webkit-datetime-edit-day-field {
+    color: #555; }
+::-webkit-datetime-edit-year-field {
+    color: #555; }
+::-webkit-inner-spin-button {
+    display: none; }
+::-webkit-clear-button {
+    display: none; -webkit-appearance: none;
+}
+::-webkit-calendar-picker-indicator {
+    background: none; color: #555;
+    font-size: 2rem; margin-right: 1rem; transition: .4s;
+}
+.radio, .checkboxes{ /* radio and checkboxes styles*/
+    width: 40%;
+    height: auto;
+    font-size: 1em;
+    line-height: 1.42857143;
+    float:right;
+}
+div.radio label, div.checkboxes label{
+    width:0;
+    font-weight:normal;
+    float: none;
+}
+div.submit{/*submit button*/
+    padding: 15px;
+    float:right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+input#submit {
+    text-decoration: none;
+    font-size: 1.25em;
+    color: white;
+    width:70px;
+    height: 40px;
+    display:inline-block;
+    margin: 0;
+    background: #ffaf4b; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffaf4b 0%, #ff920a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffaf4b), color-stop(100%,#ff920a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffaf4b 0%,#ff920a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffaf4b 0%,#ff920a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffaf4b 0%,#ff920a 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffaf4b 0%,#ff920a 100%); /* W3C */
+    background-color: #b01c20;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 26.6667%, 0.8);
+    text-shadow: 0 1px black;
+    border: 1px solid #bfbfbf;
+}
+input#submit:hover {
+    box-shadow: inset 0 0 0 5px #AF3D0D;
+}
+input:required {
+    border: 2px solid rgba(253, 8, 8, 0.50);
+}
+input:focus:invalid,input[type=date]:focus:invalid,input[type=month]:focus:invalid,textarea#comments:focus:invalid {
+    background-color: rgba(247,181,67,0.29);
+}
+input:focus:valid,input[type=date]:focus:valid,input[type=month]:focus:valid, textarea#comments:focus:valid {
+    background-color: rgba(247,244,214,0.50) ;
+}
+footer{/*footer copyright*/
+    margin-top:20px;
+    padding: 10px;
+}
+footer p{
+    font: normal 0.7em "Helvetica Neue", Helvetica, Arial, sans-serif ;
+    color:#f9f9f9;
+    text-align: center;
+}
+.polyfill-important .input-range,.polyfill-important .step-controls {
+    float: right;
+}
+.polyfill-important .step-controls {
+    margin-right: -20px!important;
+}
+
+@media screen and (max-width: 768px){
+    #logo, div.details-group label, div.info label, div.survey label{
+        width:100%;
+        margin-bottom:10px;
+        display:block;
+        clear:both;
+    }
+    .container{
+        background-color: rgba(255,236,231,0.50);
+    }
+    nav, input.details, textarea#comments, select,.radio, .checkboxes, input#rating {
+        width:100%;
+        display:block;
+        float:left;
+    }
+}

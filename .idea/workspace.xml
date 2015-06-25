@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c7535ea-f3c1-4d26-8b21-bffa26b5cf6b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week4/index.html" afterPath="$PROJECT_DIR$/Week4/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week4/css/main.css" afterPath="$PROJECT_DIR$/Week4/css/main.css" />
     </list>
     <ignored path="DWSII.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week4/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.739508">
-              <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.26193923">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -79,8 +78,8 @@
         <option value="$PROJECT_DIR$/Week 3/index.html" />
         <option value="$PROJECT_DIR$/Week 3/css/main.css" />
         <option value="$PROJECT_DIR$/Week4/main.css" />
-        <option value="$PROJECT_DIR$/Week4/index.html" />
         <option value="$PROJECT_DIR$/Week4/css/main.css" />
+        <option value="$PROJECT_DIR$/Week4/index.html" />
       </list>
     </option>
   </component>
@@ -441,8 +440,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week4/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.739508">
-          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.26193923">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

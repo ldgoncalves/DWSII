@@ -1,0 +1,35 @@
+/* Styles for About page*/
+
+span {
+    font-weight: bold;
+}
+.studio_container {
+    padding: 0 0 1.464844% 1.953125%;
+}
+.studio h3 {
+    font-size: 1.1em;
+    margin:0;
+    padding-bottom: 2%;
+}
+.studio p{
+    line-height: 1.2em;
+    font-size: .9em;
+    margin-bottom: 0.5em;
+}
+iframe
+{
+    max-width: 100%;
+}
+.video {
+    float: left;
+    width: 50%;
+    padding: 3%
+}
+.info {
+  float: right;
+  width: 30%;
+padding: 3%;
+}
+.info img {
+    max-width: 100%;
+}

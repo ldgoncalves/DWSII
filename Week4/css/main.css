@@ -6,7 +6,7 @@ body{
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-size: 0.875em;
     background: #040404 url(../images/background.jpg) repeat-x 0 0;
-    margin: 0;
+    margin: 0 3% 3% 3%;
     padding: 0;
 }
 .wrapper{
@@ -39,9 +39,10 @@ a{
 a:hover{
     color:#009eff;
 }
+/* Styles for elements*/
 header {
     display: block;
-    max-height:300px;
+    max-height:550px;
     max-width: 100%;
     overflow: hidden;
 }
@@ -51,7 +52,7 @@ header:before {
     padding-bottom: 50%;
 }
 header.banner {
-    background-position: 50%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
@@ -69,27 +70,27 @@ header a.logo {
 }
 
 article{
-    padding: 60px 20px 10px 20px;
+    padding: 8% 2.5% 2% 2.5%;
 }
 footer{
     font-size: .85em;
     color: #9ba0bd;
     background-color: #040404;
     padding: 3% 3% 3% 0px;
+    text-align: center;
 }
-
 /* Styles for .promo section */
 .cta_container {
-    padding: 0 0 15px 20px;
+    padding: 0 0 1.464844% 1.953125%;
 }
 .cta_container .cta {
     width: 33%;
     float:left;
+    background-position: 0 3px;
 }
 .cta_container .cta .content {
-    padding: 0 30px 0 70px
+    padding: 0 3.061224% 0 30%;
 }
-
 .cta h3 {
     font-size: 1.1em; margin:0;
 }
@@ -98,7 +99,6 @@ footer{
     font-size: .9em;
     margin-bottom: 0.5em;
 }
-
 /* cta images*/
 .cta {
     background-repeat: no-repeat;
@@ -113,29 +113,142 @@ footer{
     background-image: url(../images/promo_3.jpg);
 }
 /* CTA buttons for promo links */
-div a.cta {
-    width:100%;
-}
-a.cta {
+a.button {
     text-transform: uppercase;
     font-size: .9em;
     font-weight: bold;
     text-decoration: none;
     margin: 1% 0 0 0;
-    padding: 0 3% 0 0;
+    padding: 0 10% 0 0;
     background :url(../images/cta_arrow.png) no-repeat right 0;
-    display: inline;
-
 }
-a.cta:hover {
+a.button:hover {
     background-position: right -58px;
 }
-
+/* navigation styles*/
+nav{
+    width:100%;
+    display:block;
+    position:absolute;
+    background-color: #3A4153;
+    top: 550px;
+    text-align:center;
+}
+nav a {
+    color: #C79E91;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: .9em;
+    margin: 12px 0 10px 20px;
+}
+nav a:hover {
+    color: #fff;
+}
+nav a.active {
+    color: #fff;
+}
+.clear-fix {
+    clear: both;
+    line-height: 0.071em;
+}
 /* media queries */
-@media screen {
+@media only screen and (min-width: 799px) and (max-width:1169px) {
+    header{
+        height: 450px;
+    }
+    nav {
+        top: 450px;
+    }
+}
+@media only screen and (min-width:501px) and (max-width:800px) {
     body{
+        background-image: none;
+        margin: 0;
+    }
+    header {
+        height: 300px;
+    }
+    header a.logo {
+        width:115px;
+        height: 70px;
+        top: 20px; right: 20px;
+        background-image: url(../images/logo_medium.png);
+    }
+    nav {
+        top: 300px;
+    }
+    nav a {
+        margin-right: 3.5%;
+    }
+    .cta_container {
+        padding: 0 5% 3% 5%;}
 
+    .cta_container .cta {
+        background-position: 0 0;
+    }
+    .cta_container .cta .content {
+        padding: 42% 15% 0 0;
+    }
+    a.button {
+        padding: 0 10% 0 0;
+    }
+    footer {
+        background-color: #3A4153;
+    }
+}
+@media only screen and (min-width:50px) and (max-width:501px){
+    body{
+        background-image: none;
+        margin: 0;
+    }
+   header{
+       height: 150px;
+   }
+    header a.logo {
+        top: 16px;
+        right: 15px;
+    }
+    article{
+        padding: 5% 5% 3% 5%;
+    }
+    nav{
+        position:static;
+        padding: 3% 0;
+        text-align: left;
+    }
+    nav a {
+        display: block;
+        margin: 4%;
+        padding:3.5%;
+        border: 1px solid #a6abc5;
+        background: url(../images/mobile_link_arrow.png) no-repeat right center;
+        -moz-border-radius: 13px;
+        -webkit-border-radius: 13px;
+        border-radius: 13px;
     }
 
+    nav a:hover {
+        color: #fff;
+        background-color: rgba(255,255,255, .20);
+    }
+    .cta_container {
+        padding: 0;
+    }
+    .cta_container .cta {
+        width: auto;
+        float: none;
+        padding: 3% 0 0 0;
+        background-position: 20px 13px;
+        border-top: 1px solid #ccc;
+    }
+    .cta_container .cta .content {
+        padding: 0 5% 2% 25%;
+    }
+    footer {
+        border-top: 1px solid #a6abc5;
+        background-color: #3A4153;
+    }
 
 }

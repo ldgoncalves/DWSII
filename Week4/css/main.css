@@ -206,6 +206,10 @@ nav a.active {
     .studio_container {
         padding: 0 5% 3% 5%;
     }
+    /*for form*/
+    input.details, textarea, select{
+        width: 80%;
+    }
 }
 @media only screen and (min-width:50px) and (max-width:501px){
     body{
@@ -270,5 +274,12 @@ nav a.active {
     }
     img{
         display: none;
+    }
+    /* for form*/
+    article.small h1{
+        font-size: 1.7em;
+    }
+    input.details, textarea, select{
+        width: 70%;
     }
 }

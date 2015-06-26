@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7535ea-f3c1-4d26-8b21-bffa26b5cf6b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week4/about.html" afterPath="$PROJECT_DIR$/Week4/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week4/index.html" afterPath="$PROJECT_DIR$/Week4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week3/Wk3_goncalves_luana/css/main.css" afterPath="$PROJECT_DIR$/Week3/Wk3_goncalves_luana/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week4/css/main.css" afterPath="$PROJECT_DIR$/Week4/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week4/schedule.html" afterPath="$PROJECT_DIR$/Week4/schedule.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week4/signup.html" afterPath="$PROJECT_DIR$/Week4/signup.html" />
     </list>
     <ignored path="DWSII.iws" />
@@ -23,21 +28,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week4/css/main.css">
+      <file leaf-file-name="schedule.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week4/schedule.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="242" column="5" selection-start-line="242" selection-start-column="5" selection-end-line="242" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.55764073">
+              <caret line="183" column="273" selection-start-line="183" selection-start-column="273" selection-end-line="183" selection-end-column="273" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week4/signup.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week1/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73458445">
-              <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
+            <state vertical-scroll-proportion="36.416668">
+              <caret line="8" column="16" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week1/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week4/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schedule.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week4/css/schedule.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -66,12 +101,17 @@
         <option value="$PROJECT_DIR$/Week 3/index.html" />
         <option value="$PROJECT_DIR$/Week 3/css/main.css" />
         <option value="$PROJECT_DIR$/Week4/main.css" />
-        <option value="$PROJECT_DIR$/Week4/index.html" />
         <option value="$PROJECT_DIR$/Week4/js/jquery.fitvids.js" />
-        <option value="$PROJECT_DIR$/Week4/about.html" />
-        <option value="$PROJECT_DIR$/Week4/css/main.css" />
         <option value="$PROJECT_DIR$/Week4/css/about.css" />
+        <option value="$PROJECT_DIR$/Week4/css/signup.css" />
+        <option value="$PROJECT_DIR$/Week3/Wk3_goncalves_luana/css/main.css" />
+        <option value="$PROJECT_DIR$/Week4/about.html" />
+        <option value="$PROJECT_DIR$/Week4/index.html" />
+        <option value="$PROJECT_DIR$/Week4/css/form.css" />
+        <option value="$PROJECT_DIR$/Week4/css/main.css" />
         <option value="$PROJECT_DIR$/Week4/signup.html" />
+        <option value="$PROJECT_DIR$/Week4/css/schedule.css" />
+        <option value="$PROJECT_DIR$/Week4/schedule.html" />
       </list>
     </option>
   </component>
@@ -83,7 +123,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="528" />
+    <option name="x" value="563" />
     <option name="y" value="23" />
     <option name="width" value="907" />
     <option name="height" value="867" />
@@ -143,7 +183,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Week3" />
+              <option name="myItemId" value="Week4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -157,11 +201,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Week3" />
+              <option name="myItemId" value="Week4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Wk3_goncalves_luana" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,7 +308,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="528" y="23" width="907" height="867" extended-state="0" />
+    <frame x="563" y="23" width="907" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -335,14 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week1/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week2/Bootstrap/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8190349">
@@ -362,52 +398,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week3/Wk3_goncalves_luana/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29624665">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16085792">
-          <caret line="8" column="16" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week4/css/about.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3116883">
           <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week4/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41689008">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week4/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="242" column="5" selection-start-line="242" selection-start-column="5" selection-end-line="242" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -420,10 +414,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Week3/Wk3_goncalves_luana/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.012987">
+          <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week4/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8042895">
+          <caret line="40" column="80" selection-start-line="40" selection-start-column="80" selection-end-line="40" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week4/css/form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5194805">
+          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+          <folding>
+            <element signature="e#2606#3437#2" expanded="true" />
+            <element signature="e#4461#5292#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week4/signup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73458445">
-          <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.02010724">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0254692">
+          <caret line="51" column="80" selection-start-line="51" selection-start-column="80" selection-end-line="51" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week4/css/schedule.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week4/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="36.416668">
+          <caret line="8" column="16" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week4/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55764073">
+          <caret line="183" column="273" selection-start-line="183" selection-start-column="273" selection-end-line="183" selection-end-column="273" />
           <folding />
         </state>
       </provider>

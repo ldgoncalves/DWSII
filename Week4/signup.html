@@ -4,27 +4,29 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
         <title>Great Vibes Yoga</title>
+        <link rel="stylesheet" type="text/css" href="css/form.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <!--[if gte IE 9]>
+        <style type="text/css"> .gradient { filter: none;}</style>
+        <![endif]-->
         <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-
     </head>
     <body>
         <div class="wrapper">
-
             <header class="banner" style="background-image: url(images/banner.jpg)" title="Photo by Dennis Yang via Flickr http://bit.ly/1NcQq3v CC BY 2.0 https://creativecommons.org/licenses/by/2.0">
-                <a class="logo" href="#"></a>
+                <a class="logo" href="index.html"></a>
             </header>
-
+            <article class="small">
+                <h1>New to our studio? Register here!</h1>
+            </article>
+            <!--Begin form-->
             <form method="post">
-                <div>
-                    <h1>New to our studio? Register here!</h1>
-                </div>
                 <div class="control">
                     <label for="firstname">First Name:</label>
                     <div>
-                        <input id="firstname" class="details" type="text" name="name" placeholder="Jane" required aria-required="true">
+                        <input id="firstname" class="details" type="text" name="name" placeholder="Jane" required aria-required="true" autofocus>
                     </div>
                 </div>
                 <div class="control">
@@ -52,13 +54,13 @@
                     </div>
                 </div>
                 <div class="control">
-                    <label for="city">City</label>
+                    <label for="city">City:</label>
                     <div>
                         <input id="city" class="details" type="text" name="city" placeholder="Miami" required aria-required="true">
                     </div>
                 </div>
                 <div class="control">
-                    <label>Please select a state</label>
+                    <label>Please select a state:</label><br>
                     <select name="state">
                         <option value="AL">Alabama</option>
                         <option value="AK">Alaska</option>
@@ -114,9 +116,9 @@
                     </select>
                 </div>
                 <div class="control">
-                    <label for="zip">Zip Code</label>
+                    <label for="zip">Zip Code:</label>
                     <div>
-                        <input id="zip" class="details" type="number" name="zip" placeholder="00000" required aria-required="true">
+                        <input id="zip" class="details" type="text" name="zip" placeholder="00000" required aria-required="true">
                     </div>
                 </div>
                 <div class="control">
@@ -130,106 +132,35 @@
                     <div>
                         <input id="email" class="details" type="email" name="email" placeholder="Email" required aria-required="true">
                     </div>
+                </div>
+                <div class="control">
                     <div>
-                        <input id="password" class="details" type="password" name="psw" placeholder="Password" required aria-required="true">
+                        <input id="password" class="details" type="password" name="psw" size="15" maxlength="30" placeholder="Password" required aria-required="true">
                     </div>
                 </div>
                 <div class="control">
-                    <label for="comments">Additional Comments: </label>
+                    <label for="comments">Additional Comments: </label><br>
                     <textarea rows="4" cols="40" id="comments" placeholder="Comment"></textarea>
                 </div>
-
-
-                <fieldset><!--More information-->
-                    <legend>
-                        More information on your appointment:
-                    </legend>
-                    <div class="info">
-                        <label>Are you a new or existing client?</label>
-                        <div class="radio">
-                            <input type="radio" id="r1" name="client" value="new" checked="checked" />
-                            <label for="r1">New</label>
-                            <input type="radio" id="r2" name="client" value="existing" />
-                            <label for="r2">Existing</label>
-                        </div>
+                <div class="control">
+                    <div class="checkboxes">
+                        <input type="checkbox" name="services" value="massage" checked="checked" />
+                        <label>Join our mailing list for studio news &amp; special deals</label>
                     </div>
-                    <div class="info">
-                        <label>How did you find our spa?</label>
-                        <select name="find">
-                            <option value="client">Already a client</option>
-                            <option value="newspaper">Newspaper</option>
-                            <option value="friend">Friend</option>
-                            <option value="internet">Internet Search</option>
-                            <option value="sign">Sign on on building </option>
-                        </select>
-                    </div>
-                    <div class="info">
-                        <label>Which location you want your appointment?</label>
-                        <select name="location">
-                            <option value="deerfield">Deerfield Beach</option>
-                            <option value="lauderdale">Ft. Lauderdale</option>
-                        </select>
-                    </div>
-                    <div class="info">
-                        <label>Service(s): <br /><span>Select all that apply</span></label>
-                        <div class="checkboxes">
-                            <input type="checkbox" name="services" value="massage" checked="checked" />
-                            <label>Massage</label>
-                            <input type="checkbox" name="services" value="facial" />
-                            <label>Facials</label>
-                            <input type="checkbox" name="services" value="back" />
-                            <label>Back Facial</label>
-                            <input type="checkbox" name="services" value="bodywraps" />
-                            <label>Body Wraps</label>
-                            <input type="checkbox" name="services" value="manicure" />
-                            <label>Manicure</label>
-                            <input type="checkbox" name="services" value="pedicure" />
-                            <label>Pedicure</label>
-                            <input type="checkbox" name="services" value="foot" />
-                            <label>Foot Reflexology</label>
-                            <input type="checkbox" name="services" value="reiki" />
-                            <label>Reiki</label>
-                        </div>
-                    </div>
-
-                    <div class="info">
-                        <label for="pref1">Date Preference #1:</label>
-                        <div>
-                            <input id="pref1" class="details" type="date" name="date">
-                        </div>
-                    </div>
-                    <div class="info">
-                        <label for="pref2">Date Preference #2:</label>
-                        <div>
-                            <input id="pref2" class="details" type="date" name="date">
-                        </div>
-                    </div>
-                </fieldset><!--End More Information-->
-                <fieldset><!--Optional-->
-                    <legend>
-                        Optional:
-                    </legend>
-                    <div class="survey">
-                        <label for="rating">How would you rate our website on a scale of 1 to 10, where 10 is best? </label>
-                        <div>
-                            <input id="rating" name="rating" type="range" min="1" max="10" value="5" onchange="showValue(this.value)" ><span id="range">5</span>
-                        </div>
-                    </div>
-                </fieldset><!--End Optional-->
+                </div>
                 <div class="submit">
                     <label for="submit"><!--Submit-->
                         <input type="submit" value="Submit" id="submit" />
                     </label>
                 </div>
-            </form><!-- End main content-->
-            <div class="clearfix"></div>
+            </form><!-- End form -->
+            <div class="clearfix"></div> <!-- clearfix hack for floated items -->
             <nav>
-                <a href="index.html" class="active">Home</a>
+                <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="schedule.html">Schedule</a>
-                <a href="signup.html">Sign Up</a>
+                <a href="signup.html" class="active">Sign Up</a>
             </nav>
-
             <footer>
                 &copy; 2015 Great Vibes Yoga. All Rights Reserved.
             </footer>

@@ -99,7 +99,7 @@ form {
     height: auto;
     margin: 0 auto;
 }
-form div.hgroup{
+form div h1{
      text-align: center;
      text-shadow: 1px 1px 3px #666666;
  }

@@ -1,9 +1,13 @@
+/* styles for table and photo gallery*/
+.table_container, div#photos {
+    padding: 0 1.953125% 1.464844% 1.953125%;
+}
 table {
-    width: 80%;
+    width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
     text-align:left;
-    margin: 0 0 2% 5%;
+    margin: 0;
     vertical-align: baseline;
     padding: 0;
     outline: 0;
@@ -11,21 +15,45 @@ table {
     background: 0 0;
     display: table;
 }
-thead {
+th {
     border-top: 3px solid #ce8483;
     background-color: #FFBCCE; }
 tbody tr {
     border-bottom: 1px solid #FFF2DF;
 }
-
 tbody tr:hover {
     background-color: #fff;
 }
 td,th {
     padding: 2% 4%;
 }
+td{
+    background-color: rgba(255,255,255,0.6);
+}
 
-td{  background-color: rgba(255,255,255,0.6);
+
+#photos {
+    line-height: 0;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 0;
+    -moz-column-count: 2;
+    -moz-column-gap: 0;
+    column-count: 2;
+    column-gap: 0;
+
+}
+#photos img {
+    width: 100% !important;
+    height: auto !important;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -moz-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#photos img:hover {
+    width: 300px;
+    -webkit-transform: skew(30deg) scale(1.1,1.1) rotate(360deg);
+    transform: skew(10deg) scale(1.1,1.1) rotate(360deg);
 }
 
 
